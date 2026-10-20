@@ -134,10 +134,7 @@ public class StudentManagment1 {
 
         
         
-        String sql =
-        
-        		
-        		"UPDATE students SET email=? WHERE id=?";
+        String sql ="UPDATE students SET email=? WHERE id=?";
 
         PreparedStatement ps = con.prepareStatement(sql);
 
